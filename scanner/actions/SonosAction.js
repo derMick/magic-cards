@@ -14,6 +14,7 @@ class SonosAction extends Action {
 
       setTimeout(() => {
         this.roomRequest(this.card.uri)
+        this.play()
       }, 200)
     }
 
